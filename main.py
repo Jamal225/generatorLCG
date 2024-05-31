@@ -66,7 +66,7 @@ def test_for_binary_sequence(binary_sequence, eligible_battery):
 
 if __name__ == "__main__":
     seed = int(input("Seed:"))
-    size = int(input("Size: P.S. Please in interval [13, 100] :"))
+    size = int(input("Size:"))
     # генерим числовые последовательности и переводим их в бинарный вид
     binary_sequence_lcg, binary_sequence_mersenne = create_binary_sequence(seed, size)
 
